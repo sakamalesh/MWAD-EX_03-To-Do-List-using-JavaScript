@@ -64,6 +64,7 @@ Upload to GitHub Pages for free hosting.
 '''
 ## STYLE.CSS:
     '''
+    
     body {
     font-family: sans-serif;
     margin: 20px;
@@ -167,7 +168,7 @@ h1 {
 ## SCRIPT.JS:
 
 '''
-document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', () => {
     const taskInput = document.getElementById('taskInput');
     const addTaskBtn = document.getElementById('addTaskBtn');
     const taskList = document.getElementById('taskList');
