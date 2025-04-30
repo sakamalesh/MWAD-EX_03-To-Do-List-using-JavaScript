@@ -1,5 +1,5 @@
 # MWAD-EX_03-To-Do-List-using-JavaScript
-## Date:
+## Date:30-04-25
 
 ## AIM
 To create a To-do Application with all features using JavaScript.
@@ -64,104 +64,105 @@ Upload to GitHub Pages for free hosting.
 '''
 ## STYLE.CSS:
 '''
+
     
-    body {
-    font-family: sans-serif;
-    margin: 20px;
-    background-color: #f4f4f4;
-}
-
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.input-group {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-#taskInput {
-    flex-grow: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px 0 0 4px;
-    font-size: 16px;
-}
-
-#addTaskBtn {
-    background-color: #5cb85c;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 0 4px 4px 0;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-#addTaskBtn:hover {
-    background-color: #4cae4c;
-}
-
-#taskList {
-    list-style-type: none;
-    padding: 0;
-}
-
-#taskList li {
-    display: flex;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid #eee;
-}
-
-#taskList li:last-child {
-    border-bottom: none;
-}
-
-#taskList li span {
-    flex-grow: 1;
-    font-size: 16px;
-}
-
-#taskList li.completed span {
-    text-decoration: line-through;
-    color: #888;
-}
-
-.actions {
-    margin-left: 15px;
-}
-
-.actions button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    margin-left: 8px;
-    font-size: 14px;
-}
-
-.actions .complete-btn {
-    color: green;
-}
-
-.actions .delete-btn {
-    color: red;
-}
-
-.actions button:hover {
-    opacity: 0.8;
-}
+            body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .input-group {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        
+        #taskInput {
+            flex-grow: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px 0 0 4px;
+            font-size: 16px;
+        }
+        
+        #addTaskBtn {
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        #addTaskBtn:hover {
+            background-color: #4cae4c;
+        }
+        
+        #taskList {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        #taskList li {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        #taskList li:last-child {
+            border-bottom: none;
+        }
+        
+        #taskList li span {
+            flex-grow: 1;
+            font-size: 16px;
+        }
+        
+        #taskList li.completed span {
+            text-decoration: line-through;
+            color: #888;
+        }
+        
+        .actions {
+            margin-left: 15px;
+        }
+        
+        .actions button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            margin-left: 8px;
+            font-size: 14px;
+        }
+        
+        .actions .complete-btn {
+            color: green;
+        }
+        
+        .actions .delete-btn {
+            color: red;
+        }
+        
+        .actions button:hover {
+            opacity: 0.8;
+        }
     
 '''
 
